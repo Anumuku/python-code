@@ -1,0 +1,12 @@
+print(" Printing Fibonacci Series")
+n=12
+n1=0
+n2=1
+nn=n1
+a=0
+while a<=n:
+    print(nn)
+    a+=1
+    n1=n2
+    n2=nn
+    nn=n1+n2
