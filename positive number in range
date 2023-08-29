@@ -1,0 +1,4 @@
+import numpy as np
+list1=np.array([12,-7,5,64,-14])
+n=list1[list1>=0]
+print("List is: ",n)
