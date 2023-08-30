@@ -1,0 +1,27 @@
+Union of E and N
+code:
+  E = {0,1,2,3,4,5,8,6}
+  N = {1,2,3,4,5} 
+  D = E.union(N)
+  print(D)
+
+Intersection of E and N
+code:
+  E = {0,1,2,3,4,5,8,6}
+  N = {2,4} 
+  D = E.intersection(N)
+  print(D)
+
+Difference of E and N 
+code:
+  E = {0,1,2,3,4,5,8,6}
+  N = {1,2,3,4,5}
+  D = E.difference(N)
+  print(D)
+
+Symmetric Difference E and N
+code:
+  E = {0,1,2,3,4,5,6,8}
+  N = {2,4}
+  D=E.symmetric_difference(N)
+  print(D)
